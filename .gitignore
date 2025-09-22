@@ -1,0 +1,19 @@
+# Ignore everything
+/*
+
+# Allow specific files 
+!.gitignore
+
+# Allow specific directories
+!utils/scraper
+
+# Allow specific file types anywhere
+#!*.py
+#!*.r
+#!*.md
+
+# Allow specific nested paths
+#!docs/
+#!docs/**
+#!src/
+#git add .!src/**

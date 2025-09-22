@@ -1,0 +1,35 @@
+# Hypothetical Workflow 1: 
+
+import anvo
+
+# Xeno-Canto
+anvo.scrape("xenocanto", "kiwi", quality="A", limit=10)
+
+# YouTube
+anvo.scrape("youtube", "owl sounds", quality="720p", limit=5)
+
+# Macaulay Library
+anvo.scrape("macaulay", "robin", quality="B", limit=15)
+
+# List available sources
+print(anvo.list_sources())
+# Output: ['xenocanto', 'youtube', 'macaulay']
+
+# Get source information
+print(anvo.get_source_info("xenocanto"))
+# Output: {'name': 'xenocanto', 'supported_qualities': ['A', 'B', 'C', 'D', 'E'], 'rate_limit': 1.0}
+
+
+
+
+# Hypothetical Workflow 2: 
+
+# User imports
+import anvo
+anvo.scrape("xenocanto", "kiwi")
+
+# Internal imports (in your scrapy.py)
+from .sources import XenoCantoSource
+
+# Command line
+python -m anvo xenocanto kiwi

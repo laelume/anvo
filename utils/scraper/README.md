@@ -33,47 +33,47 @@ pip install requests yt-dlp
 ```
 
 ### Setup
-bash```
+```bash
 git clone https://github.com/laelume/anvo.git
 ```
-bash```
+```bash
 cd anvo/utils/scraper
 ```
 
 ### 🚀 Usage
 #### Command Line Interface
 ##### Basic Syntax:
-bash```
+```bash
 python scrap.py [SOURCE] [SPECIES] [OPTIONS]
 ```
 ### Examples
 #### Download high-quality kiwi sounds from Xeno-Canto
-bash```
+```bash
 python scrap.py xenocanto "kiwi" -q A -l 10
 ```
 #### Download owl videos from YouTube
-bash```
+```bash
 python scrap.py youtube "owl sounds" --quality 720p --limit 5
 ```
 #### Download unlimited robin recordings
-bash```
+```bash
 python scrap.py xenocanto "robin" -l unlimited -q B
 ```
 #### Download short recordings only
-bash```
+```bash
 python scrap.py xenocanto "cardinal" -d 0.5
 ```
 #### Scientific name search
-bash```
+```bash
 python scrap.py xenocanto "Corvus" -q A -l 20
 ```
 #### Custom organization
-bash```
+```bash
 python scrap.py xenocanto "eagle" -o "raptors" -q B
 ```
 
 #### 🛠️ Help Commands
-bash```
+```bash
 python scrap.py --help       # Detailed help
 python scrap.py --examples   # Usage examples
 python scrap.py --sources    # Available sources
@@ -81,7 +81,7 @@ python scrap.py --qualities  # Quality rating info
 ```
 
 #### 📁 Output Structure
-bash```
+```bash
 scraped_sounds/
 ├── xenocanto/
 │   ├── kiwi/A/

@@ -5,6 +5,7 @@
 !.gitignore
 
 # Allow specific directories
+#!utils/
 !utils/scraper
 !utils/scraper/**
 

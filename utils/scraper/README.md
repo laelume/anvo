@@ -6,8 +6,8 @@ A multi-source animal vocalization scraper that downloads bird and wildlife soun
 
 ## ✨ Features
 
-- **Multi-source support**: Xeno-Canto, YouTube, Macaulay Library  
-- **Flexible search**: Common names, scientific names, or genus  
+- **Multi-source support**: Xeno-Canto, YouTube, Macaulay Library, TBC ...
+- **Flexible search**: Common or scientific name
 - **Quality filtering**: Source-specific quality ratings (A–E for Xeno-Canto, resolution for YouTube)  
 - **Duration limits**: Filter recordings by length  
 - **Smart organization**: Automatic directory structure by `source/species/quality`  

@@ -6,6 +6,8 @@
 
 # Allow specific directories
 !utils/scraper
+!utils/scraper/**
+
 
 # Allow specific file types anywhere
 #!*.py

@@ -17,10 +17,6 @@ A multi-source animal vocalization scraper that downloads bird and wildlife soun
 
 ---
 
-## 📂 File Structure
-
----
-
 ## ⚙️ Installation
 
 ### Prerequisites
@@ -41,6 +37,7 @@ cd anvo/utils/scraper
 ```
 
 ### 🚀 Usage
+
 #### Command Line Interface
 ##### Basic Syntax:
 ```bash
@@ -81,6 +78,7 @@ python scrap.py --qualities  # Quality rating info
 ```
 
 #### 📁 Output Structure
+
 ```bash
 scraped_sounds/
 ├── xenocanto/

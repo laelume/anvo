@@ -47,19 +47,19 @@ cd anvo/utils/scraper
 python scrap.py [SOURCE] [SPECIES] [OPTIONS]
 ```
 ### Examples
-#### Download high-quality kiwi sounds from Xeno-Canto
+#### Download 10 A-quality kiwi sounds from Xeno-Canto
 ```bash
 python scrap.py xenocanto "kiwi" -q A -l 10
 ```
-#### Download owl videos from YouTube
+#### Download audio from 5 owl videos on YouTube
 ```bash
 python scrap.py youtube "owl sounds" --quality 720p --limit 5
 ```
-#### Download unlimited robin recordings
+#### Download B-quality robin recordings with no limit on number of recordings (watch out!!)
 ```bash
 python scrap.py xenocanto "robin" -l unlimited -q B
 ```
-#### Download short recordings only
+#### Download recordings of cardinals with a duration less than 0.5 minutes
 ```bash
 python scrap.py xenocanto "cardinal" -d 0.5
 ```
